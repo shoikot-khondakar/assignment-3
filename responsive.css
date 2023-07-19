@@ -8,4 +8,11 @@
     .menu-container a{
         margin-top: 20px;
     }
+    .banner-container{
+        flex-direction: column;
+    }
+    .banner-text, .banner-image{
+        width: 100%;
+        margin-bottom: 20px;
+    }
 }
