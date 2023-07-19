@@ -22,4 +22,10 @@
     .funny-videos{
         width: 100%;
     }
+    .play-instantly-container{
+        flex-direction: column;
+    }
+    .download-text, .anniversary-img, .anniversary-img img{
+        width: 100%;
+    }
 }
