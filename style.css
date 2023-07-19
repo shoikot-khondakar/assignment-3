@@ -153,3 +153,42 @@ nav {
 background: #4EC5F7;
 padding: 15px 30px;
 }
+/* banner design finished here  */
+.flex-container{
+    display: flex;
+    gap: 20px;
+    
+    max-width: 1200px;
+    margin: 50px auto 0;
+    min-height: 300px;
+    
+    
+}
+.funny-videos{
+    width: 25%;
+   
+}
+.funny-videos img{
+    width: 100%;
+    border-radius: 16px;
+}
+.funny-videos p{
+    color: #534C64;
+
+font-size: 1.2rem;
+
+font-weight: 500;
+
+}
+.unknown-color{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+
+
+font-weight: 700;
+
+}
+/* funny video section finished  */
