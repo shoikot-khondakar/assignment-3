@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
     font-family: 'Work Sans', sans-serif;
+    
 }
 
 nav {
@@ -215,4 +216,82 @@ font-weight: 700;
 .anniversary-img img{
     width: 70%;
     
+}
+.button-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    /* display: grid;
+    grid-template-columns: repeat(5,1fr); */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    border-radius: 50px;
+background: #FFF;
+margin: 10px;
+padding: 10px;
+border: 0;
+}
+.btn:hover{
+    border: 2px solid palevioletred;
+    border-radius: 50px;
+    background-color: rgba(255, 192, 203, 0.932);
+}
+footer{
+    background-color: #0B0223;
+    color: #FFF;
+}
+.footer-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 400px;
+    
+    padding: 100px;
+
+}
+.footer-icon{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.footer-icon a{
+    text-decoration: none;
+}
+.info{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.discription{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot-container {
+display: flex;
+gap: 20px;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.foot-container img {
+
+    width: 100px;
+
+    
+    
+
+
 }
