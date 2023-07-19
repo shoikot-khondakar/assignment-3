@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Work+Sans:wght@400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+nav{
+    background-color: #FFF;
+}
+
+.nav-container {
+    
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+
+.logo-container {
+   
+    display: flex;
+
+    width: 50%;
+}
+
+.logo-container img {
+
+    width: 50px;
+
+    margin-right: 20px;
+    object-fit: contain;
+
+
+}
+.logo-name{
+    color:rgba(255, 66,165,1);
+}
+
+.logo-container p {
+    font-size: 2rem;
+    font-weight: 700;
+    
+}
+
+.menu-container {
+   
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu-container a{
+    text-decoration: none;
+}
+.follow-us-btn{
+    border: 0;
+    border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
+padding: 10px 20px;
+font-weight: 500;
+}
+.icon{
+    margin-right: 5px;
+    color: red;
+}
