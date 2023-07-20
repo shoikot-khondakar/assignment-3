@@ -26,9 +26,15 @@
         flex-direction: column;
     }
     .download-text, .anniversary-img, .anniversary-img img{
-        width: 100%;
+        width: 90%;
     }
     .button-container{
-        justify-content: start;
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+       
+    }
+    .info{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
     }
 }
